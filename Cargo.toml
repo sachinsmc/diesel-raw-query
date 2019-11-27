@@ -1,0 +1,10 @@
+[package]
+name = "diesel_raw_query"
+version = "0.1.0"
+authors = ["Sachin Chavan <chavansachin295@gmail.com>"]
+
+
+[dependencies]
+diesel = { version = "1.0.0", features = ["postgres"] }
+dotenv = "0.9.0"
+
